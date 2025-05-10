@@ -1,5 +1,6 @@
 "use client";
 
+// import * as motion from "motion/react-client";
 import { useState } from "react";
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
@@ -9,16 +10,16 @@ import { ChevronDown, ChevronUp, Clock } from "lucide-react";
 export default function FloatingPopOver() {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <div className="absolute bottom-4 right-10 ">
+    <div className="fixed bottom-4 right-2 md:right-5">
       <Popover onOpenChange={() => setOpen(!open)}>
-        <PopoverTrigger className="cursor-pointer w-[358px]">
-          <div className="h-16 bg-black py-2.5 px-7 flex items-center justify-between">
+        <PopoverTrigger className="cursor-pointer w-[100px] md:w-[250px] ">
+          <div className="h-16 bg-black py-2.5 px-2 md:px-7 flex items-center justify-between">
             <PrintOut />
-            <p className="text-xl font-bold text-white">Professional Experience</p>
+            <p className="text-md font-bold text-white hidden md:block">Job Experience</p>
             {!open ? <ChevronUp color="white" /> : <ChevronDown color="white" />}
           </div>
         </PopoverTrigger>
-        <PopoverContent className="w-[488px]" align="end">
+        <PopoverContent className="w-screen md:w-[488px]" align="end">
           <Content />
         </PopoverContent>
       </Popover>

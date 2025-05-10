@@ -60,7 +60,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${anton.className} antialiased`}>{children}</body>
+      <body className={`${inter.variable} ${anton.className} antialiased relative`}>{children}</body>
     </html>
   );
 }
