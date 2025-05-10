@@ -8,7 +8,7 @@ export default function NavMenu() {
     <nav className="absolute top-22 left-1/2 -translate-x-1/2 w-full max-w-[718px] h-[70px] mx-auto max-sm:hidden">
       <ul className="flex justify-between items-center bg-black w-full p-2 rounded-[100px]">
         <li className="h-full">
-          <Link href="/" className="block h-full rounded-[90px] py-4 px-8 bg-portfolio-grey relative">
+          <Link href="/" className="block h-full rounded-[90px] py-4 px-8 bg-portfolio-orange relative">
             {/* <ArrowUp /> */}
             <Image src={Golden} alt="golden portrait" width={32} height={32} className="rounded-full" />
           </Link>
