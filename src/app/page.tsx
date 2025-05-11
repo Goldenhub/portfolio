@@ -4,6 +4,8 @@
 import About from "@/components/About";
 import FloatingPopOver from "@/components/FloatingPopOver";
 import Hero from "@/components/Hero";
+import RecentWorks from "@/components/RecentWorks";
+import Testimonials from "@/components/Testimonials";
 
 export default function Home() {
   return (
@@ -11,6 +13,8 @@ export default function Home() {
       <Hero />
       <main>
         <About />
+        <RecentWorks />
+        <Testimonials />
       </main>
       <FloatingPopOver />
     </>

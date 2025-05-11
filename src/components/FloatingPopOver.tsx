@@ -6,8 +6,9 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { PrintOut } from "./SVGIcon";
 import { ChevronDown, ChevronUp, Clock } from "lucide-react";
+import { Experiences } from "@/lib/constants";
 
-export default function FloatingPopOver() {
+export default function Main() {
   const [open, setOpen] = useState<boolean>(false);
   return (
     <div className="fixed bottom-4 right-2 md:right-5">
@@ -28,22 +29,6 @@ export default function FloatingPopOver() {
 }
 
 function Content() {
-  const Experiences = [
-    {
-      id: 1,
-      role: "Full Stack Developer",
-      company: "Celebut",
-      duration: "Present",
-      description: "Led development of the admin interface for the company's core product, focusing on usability, performance, and scalability. Also built the marketing landing page, aligning design and content with the company's brand and product positioning.",
-    },
-    {
-      id: 2,
-      role: "Full Stack Developer",
-      company: "Cinfores Limited",
-      duration: "2020 - 2025",
-      description: "Led development of the admin interface for the company's core product, focusing on usability, performance, and scalability. Also built the marketing landing page, aligning design and content with the company's brand and product positioning.",
-    },
-  ];
   return (
     <Accordion type="single" collapsible className="w-full">
       {Experiences.map((experience) => (
