@@ -42,7 +42,7 @@ export default function NavMenu() {
           </a>
         </li>
         <li className="h-full">
-          <a href="https://cal.com/goldenazubuike/30min" rel="noopener" className="uppercase text-portfolio-hero-yellow text-md font-medium h-full rounded-[90px] py-4 px-8 bg-portfolio-purple flex">
+          <a href="https://cal.com/goldenazubuike/30min" rel="noopener" target="_blank" className="uppercase text-portfolio-hero-yellow text-md font-medium h-full rounded-[90px] py-4 px-8 bg-portfolio-purple flex">
             book a call <PhoneCallIcon />
           </a>
         </li>

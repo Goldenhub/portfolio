@@ -61,7 +61,7 @@ export default function MobileNavMenu() {
                 </a>
               </li>
               <li className="">
-                <a href="https://cal.com/goldenazubuike/30min" rel="noopener" className="uppercase text-portfolio-hero-yellow text-md font-medium rounded-[90px] py-4 px-8 bg-portfolio-purple flex justify-center items-center gap-5">
+                <a href="https://cal.com/goldenazubuike/30min" rel="noopener" target="_blank" className="uppercase text-portfolio-hero-yellow text-md font-medium rounded-[90px] py-4 px-8 bg-portfolio-purple flex justify-center items-center gap-5">
                   book a call <PhoneCallIcon />
                 </a>
               </li>
