@@ -11,7 +11,7 @@ import { Experiences } from "@/lib/constants";
 export default function Main() {
   const [open, setOpen] = useState<boolean>(false);
   return (
-    <div className="fixed bottom-4 right-2 md:right-5">
+    <div className="fixed bottom-4 right-2 md:right-5 z-50">
       <Popover onOpenChange={() => setOpen(!open)}>
         <PopoverTrigger className="cursor-pointer w-[100px] md:w-[250px] ">
           <div className="h-16 bg-black py-2.5 px-2 md:px-7 flex items-center justify-between">

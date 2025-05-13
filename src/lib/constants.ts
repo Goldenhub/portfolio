@@ -42,7 +42,7 @@ export const Experiences = [
     role: "Full Stack Developer",
     company: "Cinfores Limited",
     duration: "2020 - 2025",
-    description: "Led development of the admin interface for the company's core product, focusing on usability, performance, and scalability. Also built the marketing landing page, aligning design and content with the company's brand and product positioning.",
+    description: "Grew into a leadership role where I guided a small team of developers and took charge of building and maintaining internal systems used at scale. Worked closely with non-technical teams to understand real-world challenges and turned them into practical, stable software solutions.Focused on improving system reliability, speeding up delivery, and helping the team stay aligned and productive through changing priorities.",
   },
 ];
 

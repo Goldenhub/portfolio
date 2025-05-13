@@ -21,21 +21,19 @@ function CarouselElement() {
       <CarouselContent>
         {Testimonials.map((testimonial) => (
           <CarouselItem className="md:basis-1/3" key={testimonial.id}>
-            <div className="bg-[#FCF4FE] rounded-4xl">
-              <div className="rounded-t-4xl">
-                <figure className="flex flex-col gap-10 md:gap-20 p-6 md:p-10">
-                  <blockquote>
-                    <p className="text-justify md:text-start text:lg font-normal text-portfolio-text-light">{testimonial.description}</p>
-                  </blockquote>
-                  <figcaption>
-                    <Image src={testimonial.image} alt={testimonial.name} width={100} height={100} className="w-20 h-20 object-cover rounded-full" />
-                    <p className="text-2xl md:text-3xl font-normal text-portfolio-orange text-start">{testimonial.name}</p>
-                    <span className="font-inter text-md">
-                      {testimonial.role} @<cite>{testimonial.company}</cite>
-                    </span>
-                  </figcaption>
-                </figure>
-              </div>
+            <div className="bg-[#FCF4FE] rounded-2xl md:rounded-4xl">
+              <figure className="flex flex-col gap-10 md:gap-20 p-6 md:p-10">
+                <blockquote>
+                  <p className="text-justify md:text-start text:lg font-normal text-portfolio-text-light">{testimonial.description}</p>
+                </blockquote>
+                <figcaption>
+                  <Image src={testimonial.image} alt={testimonial.name} width={100} height={100} className="w-20 h-20 object-cover rounded-full" />
+                  <p className="text-2xl md:text-3xl font-normal text-portfolio-orange text-start">{testimonial.name}</p>
+                  <span className="font-inter text-md">
+                    {testimonial.role} @<cite>{testimonial.company}</cite>
+                  </span>
+                </figcaption>
+              </figure>
             </div>
           </CarouselItem>
         ))}

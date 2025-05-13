@@ -14,7 +14,7 @@ export default function Hero() {
           </h1>
           <h3 className="text-xl md:text-4xl text-end text-portfolio-purple">Golden Azubuike</h3>
         </div>
-        <p className="text-2xl md:text-5xl">I collaborate with startups and founders to build scalable products that drive sales</p>
+        <p className="text-2xl md:text-5xl text-portfolio-black-light">I collaborate with startups and founders to build scalable products that drive sales</p>
       </section>
     </header>
   );
