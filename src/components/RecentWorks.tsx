@@ -23,7 +23,7 @@ function Card({ image, github, live_link, case_study, desc, title }: { image: st
   return (
     <div className={`relative md:h-[579px] h-[289px] w-full lg:first:col-span-3 lg:col-span-2 ${image} bg-no-repeat lg:hover:first:bg-[length:160%_100%] lg:hover:last:bg-[length:160%_75%] lg:first:bg-[length:80%_50%] lg:last:bg-[length:80%_35%] bg-[length:80%_60%] transition-[background-size] ease-in-out bg-center cursor-pointer group`} onClick={() => router.push(case_study)}>
       <div className="absolute inset-0 bg-gradient-to-b from-portfolio-black via-portfolio-purple/40 to-portfolio-orange/30 flex h-full justify-center items-center">
-        <ArrowUpRight className="border rounded-full p-3 invisible group-hover:visible" color="white" size={50} />
+        <ArrowUpRight className="border rounded-full p-3 md:invisible md:group-hover:visible" color="white" size={50} />
       </div>
 
       <div className="relative h-full text-white p-4 flex flex-col justify-between">
