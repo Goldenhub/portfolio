@@ -8,7 +8,7 @@ export default function Hero() {
   const [active, setActive] = useState("home");
 
   return (
-    <header id="home" className="relative max-w-[456px] md:max-w-[1280px] mx-auto overflow-hidden max-h-screen px-5 p-20">
+    <header id="home" className="relative max-w-[456px] md:max-w-[1280px] mx-auto overflow-hidden px-5 p-20">
       {/* <div className="absolute top-0 left-0 w-full h-full bg-white -z-10"></div> */}
       <NavMenu sections={sections} active={active} setActive={setActive} />
       <MobileNavMenu sections={sections} active={active} setActive={setActive} />
