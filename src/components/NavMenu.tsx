@@ -3,13 +3,9 @@
 import Image from "next/image";
 import Golden from "../../public/images/golden.jpg";
 import { DownloadCloud, PhoneCallIcon } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
-const sections = ["home", "about", "recent-works", "testimonials", "contact"];
-
-export default function NavMenu() {
-  const [active, setActive] = useState("home");
-
+export default function NavMenu({ sections, active, setActive }: { sections: string[]; active: string; setActive: (value: string) => void }) {
   useEffect(() => {
     const handleScroll = () => {
       const scrollPos = window.scrollY + window.innerHeight / 2;

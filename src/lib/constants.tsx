@@ -1,28 +1,4 @@
-export const Skills = [
-  { id: 1, title: "TypeScript" },
-  { id: 2, title: "JavaScript" },
-  { id: 3, title: "React" },
-  { id: 4, title: "Redux" },
-  { id: 5, title: "NextJS" },
-  { id: 6, title: "PHP" },
-  { id: 7, title: "Laravel" },
-  { id: 8, title: "C#" },
-  { id: 9, title: "ASP.NET" },
-  { id: 10, title: "NodeJS" },
-  { id: 11, title: "NestJS" },
-  { id: 12, title: "MongoDB" },
-  { id: 13, title: "MySQL" },
-  { id: 14, title: "SQLite" },
-  { id: 15, title: "MSSQL" },
-  { id: 16, title: "PostgreSQL" },
-  { id: 17, title: "Docker" },
-  { id: 18, title: "React Native" },
-  { id: 19, title: "Figma" },
-  { id: 20, title: "Framer" },
-  { id: 21, title: "GitHub" },
-  { id: 22, title: "GitLab" },
-  { id: 23, title: "+" },
-];
+export const Skills = [{ title: "JavaScript" }, { title: "TypeScript" }, { title: "NodeJS" }, { title: "NestJS" }, { title: "React" }, { title: "NextJS" }, { title: "Redux" }, { title: "PHP (Laravel)" }, { title: "C# (ASP.NET)" }, { title: "MongoDB" }, { title: "MySQL" }, { title: "SQLite" }, { title: "MSSQL" }, { title: "PostgreSQL" }, { title: "Docker" }, { title: "React Native" }, { title: "Expo" }, { title: "Figma" }, { title: "Framer" }, { title: "Git" }, { title: "GitHub Actions" }, { title: "+" }];
 
 export const color: { [key: number]: { text: string; border: string } } = {
   0: { text: "hover:text-portfolio-purple", border: "border-portfolio-purple" },
@@ -112,7 +88,7 @@ interface IWork {
 export const WORKS: IWork[] = [
   {
     title: "Billkit",
-    description: "An electricity unit purchase application",
+    description: "A production billing platform that enables users to purchase electricity units.",
     image: "bg-[url('/images/billkit.png')]",
     github: "https://github.com/goldenhub/betterpush",
     live_link: "https://usebillkit.com",
@@ -120,7 +96,7 @@ export const WORKS: IWork[] = [
   },
   {
     title: "BetterPush",
-    description: "One unified interface. One deploy flow.",
+    description: "A developer platform that lets individuals deploy applications to multiple hosting providers from a single interface.",
     image: "bg-[url('/images/billkit.png')]",
     github: "https://github.com/goldenhub/betterpush",
     live_link: "https://usebillkit.com",
