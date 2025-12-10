@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { ArrowUp } from "./SVGIcon";
 import Image from "next/image";
 import Golden from "../../public/images/golden.jpg";
 import { DownloadCloud, PhoneCallIcon } from "lucide-react";

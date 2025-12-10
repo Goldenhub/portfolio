@@ -1,5 +1,3 @@
-import { ul } from "motion/react-client";
-
 export const Skills = [
   { id: 1, title: "TypeScript" },
   { id: 2, title: "JavaScript" },
