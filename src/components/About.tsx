@@ -47,7 +47,7 @@ export default function Main() {
           </strong>
         </p>
         <p className="text-lg md:text-2xl font-normal text-portfolio-black-light flex-2 text-start border border-s-portfolio-black-light border-s-8 p-4">
-          Right now, I am intentionally deepening my expertise in <strong>Identity & Access Management (IAM)</strong> to build platforms that are not just functional, but provably secure and enterprise-ready.
+          Right now, I am intentionally deepening my expertise in <strong>Identity & Access Management (IAM)</strong> to build platforms that are not just functional, but secure and enterprise-ready.
         </p>
       </article>
     </section>
