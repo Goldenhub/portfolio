@@ -14,7 +14,7 @@ export default function Main() {
     <div className="fixed bottom-4 right-2 md:right-5 z-50">
       <Popover onOpenChange={() => setOpen(!open)}>
         <PopoverTrigger className="cursor-pointer w-[100px] md:w-[250px] ">
-          <div className="h-16 bg-black py-2.5 px-2 md:px-7 flex items-center justify-between">
+          <div className="h-16 bg-gradient-to-r from-portfolio-black-light to-portfolio-purple py-2.5 px-2 md:px-7 flex items-center justify-between">
             <PrintOut />
             <p className="text-md font-bold text-white hidden md:block">Job Experience</p>
             {!open ? <ChevronUp color="white" /> : <ChevronDown color="white" />}
@@ -37,10 +37,11 @@ function Content() {
             <div>
               <p className="text-lg font-bold mb-2.5">{experience.role}</p>
               <p className="text-base font-normal">{experience.company}</p>
+              <p className="text-xs font-normal">{experience.location}</p>
             </div>
           </AccordionTrigger>
           <AccordionContent>
-            <p className="mb-2">{experience.description}</p>
+            {experience.description}
             <em className="flex items-center justify-start gap-4 font-inter text-sm font-normal">
               {" "}
               <Clock size={14} /> {experience.duration}

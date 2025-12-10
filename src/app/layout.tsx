@@ -15,7 +15,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Golden Azubuike | Software Product Developer",
   description: "I help businesses, startups, and founders turn ideas into scalable MVPs—fast. Driving growth through innovative, user-centered software solutions",
-  keywords: ["Software Product Developer", "MVP Developer", "Startup MVP Development", "Fullstack Developer", "Next.js Developer", "Software Developer", "Scalable Web Apps", "Tech for Startups", "Product Development"],
+  keywords: ["Software Product Developer", "Auth, Payment and Dashboards", "Startup MVP Development", "Fullstack Developer", "Next.js Developer", "Software Developer", "Scalable Web Apps", "Tech for Startups", "Product Development"],
   authors: [
     {
       name: "Golden Azubuike",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
         url: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX",
         width: 800,
         height: 600,
-        alt: "Golden Azubuike | Software Product Developer",
+        alt: "Golden Azubuike | Software Developer",
       },
     ],
     locale: "en-US",
@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={`${inter.variable} ${anton.className} antialiased relative`}>{children}</body>
     </html>
   );
