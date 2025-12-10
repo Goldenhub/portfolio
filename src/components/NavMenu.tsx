@@ -7,7 +7,7 @@ import { DownloadCloud, PhoneCallIcon } from "lucide-react";
 
 export default function NavMenu() {
   return (
-    <nav className="fixed top-22 left-1/2 -translate-x-1/2 w-full max-w-[718px] h-[70px] mx-auto hidden md:block z-50">
+    <nav className="fixed top-22 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[70px] mx-auto hidden md:block z-50">
       <ul className="flex justify-between items-center bg-black w-full p-2 rounded-[100px]">
         <li className="h-full">
           <Link href="/" className="block h-full rounded-[90px] py-4 px-8 bg-portfolio-hero-yellow relative">
