@@ -28,7 +28,7 @@ export default function MobileNavMenu({ sections, active, setActive }: { section
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sections, setActive]);
 
   return (
     <nav className="fixed top-11 left-1/2 -translate-x-1/2 w-[90%] max-w-[718px] h-[70px] mx-auto md:hidden z-50">

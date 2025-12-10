@@ -6,7 +6,7 @@ export default function Main() {
     <section className="flex flex-col items-start justify-between max-w-[456px] md:max-w-[1280px] mx-auto px-5 py-20" id="about">
       <h4 className="uppercase text-3xl md:text-4xl mb-5">a little about me</h4>
       <article className="w-full">
-        <p className="text-lg md:text-2xl font-normal text-portfolio-black-light flex-2 text-start mb-5 border border-s-portfolio-orange border-s-8 p-4">I'm a solution-driven full-stack product engineer with 5+ years of experience working directly with founders and early teams to turn ideas into revenue-generating, secure, and scalable products.</p>
+        <p className="text-lg md:text-2xl font-normal text-portfolio-black-light flex-2 text-start mb-5 border border-s-portfolio-orange border-s-8 p-4">I am a solution-driven full-stack product engineer with 5+ years of experience working directly with founders and early teams to turn ideas into revenue-generating, secure, and scalable products.</p>
         <p className="text-lg md:text-2xl font-normal text-portfolio-black-light flex-2 text-start mb-5 border border-s-portfolio-purple border-s-8 p-4">
           My strength sits at the intersection of <strong>Product execution</strong>, <strong>System security (auth, access, payments)</strong>, and <strong>Real world reliability</strong>
         </p>

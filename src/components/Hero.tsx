@@ -20,7 +20,7 @@ export default function Hero() {
           <h3 className="text-xl md:text-4xl text-end text-portfolio-purple">Golden Azubuike</h3>
         </div>
         <p className="text-2xl md:text-4xl md:leading-12 bg-gradient-to-r from-portfolio-black-light via-portfolio-purple to-portfolio-hero-green bg-clip-text text-transparent mb-5">I build secure, production-ready platforms that handle money, identity, access, and critical business operations. From user identity, role-based access and payments to dashboards, billings, subscriptions, admin operations and real-time integrations.</p>
-        <p className="text-2xl md:text-4xl md:leading-12 bg-gradient-to-r from-portfolio-purple via-portfolio-hero-green to-portfolio-black-light bg-clip-text text-transparent">I don't just ship features. I design systems that protect revenue, reduce risk, and scale with the business.</p>
+        <p className="text-2xl md:text-4xl md:leading-12 bg-gradient-to-r from-portfolio-purple via-portfolio-hero-green to-portfolio-black-light bg-clip-text text-transparent">I don&apos;t just ship features. I design systems that protect revenue, reduce risk, and scale with the business.</p>
       </section>
     </header>
   );

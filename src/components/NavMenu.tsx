@@ -4,6 +4,7 @@ import Image from "next/image";
 import Golden from "../../public/images/golden.jpg";
 import { DownloadCloud, PhoneCallIcon } from "lucide-react";
 import { useEffect } from "react";
+import Link from "next/link";
 
 export default function NavMenu({ sections, active, setActive }: { sections: string[]; active: string; setActive: (value: string) => void }) {
   useEffect(() => {
@@ -23,15 +24,15 @@ export default function NavMenu({ sections, active, setActive }: { sections: str
 
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sections, setActive]);
   return (
     <nav className="fixed top-22 left-1/2 -translate-x-1/2 w-full max-w-[900px] h-[70px] mx-auto hidden md:block z-50">
       <ul className="flex justify-between items-center bg-black w-full p-2 rounded-[100px]">
         <li className="h-full">
-          <a href="/" className={`block h-full rounded-[90px] py-4 px-8 ${active === "home" ? "bg-portfolio-orange" : "bg-portfolio-hero-yellow"} relative`}>
+          <Link href="/" className={`block h-full rounded-[90px] py-4 px-8 ${active === "home" ? "bg-portfolio-orange" : "bg-portfolio-hero-yellow"} relative`}>
             {/* <ArrowUp /> */}
             <Image src={Golden} alt="golden portrait" width={32} height={32} className="rounded-full" />
-          </a>
+          </Link>
         </li>
         <li className="h-full">
           <a href="#about" className={`${active === "about" ? "text-portfolio-orange" : "text-white"} uppercase text-md font-medium`}>
