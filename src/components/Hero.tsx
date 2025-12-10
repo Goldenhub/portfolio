@@ -3,7 +3,7 @@ import NavMenu from "@/components/NavMenu";
 
 export default function Hero() {
   return (
-    <header className="relative max-w-[456px] md:max-w-[1280px] mx-auto overflow-hidden max-h-screen px-5 mb-40">
+    <header id="home" className="relative max-w-[456px] md:max-w-[1280px] mx-auto overflow-hidden max-h-screen px-5 pb-20">
       {/* <div className="absolute top-0 left-0 w-full h-full bg-white -z-10"></div> */}
       <NavMenu />
       <MobileNavMenu />

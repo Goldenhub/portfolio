@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedinIn, FaEnvelope, FaX } from "react-icons/fa6";
 
 export default function Main() {
   return (
-    <section className="flex flex-col items-start justify-between max-w-[456px] md:max-w-[1280px] mx-auto px-5 mb-20" id="contact">
+    <section className="flex flex-col items-start justify-between max-w-[456px] md:max-w-[1280px] mx-auto px-5 py-20" id="contact">
       <h4 className="uppercase text-3xl md:text-5xl mb-5 text-center w-full">
         want to <span className="font-anton text-portfolio-purple">connect??</span>
       </h4>

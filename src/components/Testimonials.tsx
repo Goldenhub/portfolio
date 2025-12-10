@@ -6,7 +6,7 @@ import { useRef } from "react";
 
 export default function Main() {
   return (
-    <section className="max-w-[456px] md:max-w-[1280px] mx-auto px-5 mb-20" id="testimonials">
+    <section className="max-w-[456px] md:max-w-[1280px] mx-auto px-5 py-20" id="testimonials">
       <h4 className="uppercase text-3xl md:text-4xl mb-5 text-center">What people I&apos;ve worked with say about me</h4>
       <CarouselElement />
     </section>
