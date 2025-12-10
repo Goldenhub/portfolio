@@ -24,7 +24,7 @@ function Card({ image, github, live_link, case_study, desc, title }: { image: st
       <div className="absolute inset-0 bg-gradient-to-b from-portfolio-black via-portfolio-purple/40 to-portfolio-orange/30"></div>
       <div className="relative h-full text-white p-4 flex flex-col justify-between">
         <div>
-          <h3 className="text-base md:text-2xl font-medium md:font-semibold">{title}</h3>
+          <h3 className="text-base md:text-2xl font-medium md:font-semibold tracking-wider">{title}</h3>
           <p className="text-sm">{desc}</p>
         </div>
         <div className="flex gap-6">
