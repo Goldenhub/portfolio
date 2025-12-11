@@ -2,6 +2,7 @@ import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
 import { Testimonials } from "@/lib/constants";
 import Autoplay from "embla-carousel-autoplay";
 import Image from "next/image";
+import Link from "next/link";
 import { useRef } from "react";
 
 export default function Main() {
@@ -32,6 +33,9 @@ function CarouselElement() {
                   <span className="font-inter text-md">
                     {testimonial.role} @<cite>{testimonial.company}</cite>
                   </span>
+                  <Link href={testimonial.linkedin} className="block text-portfolio-black-light text-sm">
+                    LinkedIn
+                  </Link>
                 </figcaption>
               </figure>
             </div>
