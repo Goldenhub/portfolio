@@ -73,7 +73,7 @@ export const Testimonials: ITestimonial[] = [
     id: 3,
     name: "Jane Reeds",
     role: "Product designer",
-    company: "Spotify",
+    company: "Test",
     description: "Led development of the admin interface for the company's core product, focusing on usability, performance, and scalability. Also built the marketing landing page, aligning design and content with the company's brand and product positioning.",
     image: "/images/testimonial-2.jpg",
     linkedin: "https://linkedin.com/in/nyeroesurhobo",
