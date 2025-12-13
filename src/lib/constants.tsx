@@ -66,8 +66,8 @@ export const Testimonials: ITestimonial[] = [
     role: "Framer Developer",
     company: "Neue World",
     description: "Golden understands complex requirements quickly, writes clean and efficient code, and always goes the extra mile to ensure everything functions smoothly. His communication is clear, his turnaround time is impressive, and he brings a level of professionalism that makes me highly recommend him for any project involving Framer overrides, custom integrations, or broader software engineering tasks. He is skilled, dependable, and capable of delivering even more than expected.",
-    image: "/images/melody.jpg",
-    linkedin: "https://linkedin.com/in/nyeroesurhobo",
+    image: "/images/melody.jpeg",
+    linkedin: "https://linkedin.com/in/melodyonyeocha",
   },
   {
     id: 3,

@@ -23,7 +23,7 @@ function CarouselElement() {
         {Testimonials.map((testimonial) => (
           <CarouselItem className="md:basis-1/3" key={testimonial.id}>
             <div className="bg-[#FCF4FE] rounded-2xl md:rounded-4xl">
-              <figure className="flex flex-col gap-10 md:gap-20 p-6 md:p-10">
+              <figure className="flex flex-col gap-10 md:gap-10 p-6 md:p-10">
                 <blockquote>
                   <p className="text-justify md:text-start text:lg font-normal text-portfolio-text-light">{testimonial.description}</p>
                 </blockquote>
