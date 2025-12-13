@@ -53,20 +53,20 @@ interface ITestimonial {
 export const Testimonials: ITestimonial[] = [
   {
     id: 1,
-    name: "Anna Reeds",
-    role: "Product designer",
-    company: "Cinfores LTD",
-    description: "Led development of the admin interface for the company's core product, focusing on usability, performance, and scalability. Also built the marketing landing page, aligning design and content with the company's brand and product positioning.",
-    image: "/images/testimonial-2.jpg",
-    linkedin: "https://linkedin.com/in/nyeroesurhobo",
-  },
-  {
-    id: 2,
     name: "Nyero Eseurhobo",
     role: "Product Manager",
     company: "IBT Learning",
     description: "Having worked with Golden for months now, I must say he is a great professional and a developer good at his job. He helped me as a PM understand the project better from a technical standpoint, he easily adjusts to any given situation or business dynamics. He did an incredible job on all projects, making timely deliveries and helping me nurture long-term relationships with clients, working with Golden has been a great experience for me as I learned many hard and soft skills from him.",
     image: "/images/nyero.jpeg",
+    linkedin: "https://linkedin.com/in/nyeroesurhobo",
+  },
+  {
+    id: 2,
+    name: "Melody Onyeocha",
+    role: "Framer Developer",
+    company: "Neue World",
+    description: "Golden understands complex requirements quickly, writes clean and efficient code, and always goes the extra mile to ensure everything functions smoothly. His communication is clear, his turnaround time is impressive, and he brings a level of professionalism that makes me highly recommend him for any project involving Framer overrides, custom integrations, or broader software engineering tasks. He is skilled, dependable, and capable of delivering even more than expected.",
+    image: "/images/melody.jpg",
     linkedin: "https://linkedin.com/in/nyeroesurhobo",
   },
   {
